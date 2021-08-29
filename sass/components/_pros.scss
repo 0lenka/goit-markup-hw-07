@@ -1,0 +1,90 @@
+.pros {
+  padding-bottom: 0px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.pros__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pros__item {
+  width: 270px;
+}
+
+.pros__icon {
+  display: flex;
+  background-color: $background-color;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.pros__description {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.pros__text {
+  color: $secondary-text-color;
+  line-height: 1.7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Services */
+
+.services {
+  background-color: $text-color;
+}
+
+.services__section {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.service__title,
+.team__title,
+.clients__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.service__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service__item {
+  position: relative;
+}
+
+.service__description {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  line-height: 1.17;
+  color: $text-color;
+  text-align: center;
+  text-transform: uppercase;
+}
+.service__text {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
